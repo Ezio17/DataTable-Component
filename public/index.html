@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>table</title>
+  <style>
+    .active {
+      cursor: pointer;
+    }
+
+    .table {
+      min-width: 95%;
+      margin: auto;
+    }
+
+    .table,
+    tr,
+    td,
+    th {
+      border: 3px solid black;
+      border-collapse: collapse;
+      font-size: 18px;
+    }
+
+    td {
+      text-align: center;
+      background-color: #74bc58;
+      height: 50px;
+    }
+
+    th {
+      background-color: #dae060;
+    }
+
+    .phone-search {
+      margin-bottom: 10px;
+    }
+
+    .edit {
+      min-width: 95%;
+    }
+
+    .edit-button {
+      display: block;
+      margin: auto;
+    }
+  </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.11/lodash.js"></script>
+  <script src="js/main.js" defer></script>
+</head>
+
+<body>
+  <div>
+    <div class="phone-search"></div>
+    <table class="table"></table>
+  </div>
+</body>
+
+</html>
