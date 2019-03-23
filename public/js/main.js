@@ -1,5 +1,5 @@
 /* eslint-disable indent */
-const url = 'https://mate-academy.github.io/phone-catalogue-static/phones/phones.json';
+const url = 'https://mate-academy.github.io/phone-catalogue-static/api/phones.json';
 
 // eslint-disable-next-line no-undef
 const { debounce } = _;
